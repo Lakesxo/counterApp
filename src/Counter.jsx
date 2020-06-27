@@ -27,7 +27,7 @@ class Counter extends Component {
                     <h2>{this.state.number}</h2>
                     <button onClick={this.handleClick}>Click to increase</button>
                     <button onClick={this.cropClick}>Click to decrease</button>
-                    <p>Made with <span role="img">❤️</span> by <a href="https://linktr.ee/lakes_xo" target="_blank">Lakes X'O</a></p>
+                    <p>Made with <span role="img" aria-label="love">&#128151;</span> by <a href="https://linktr.ee/lakes_xo">Lakes X'O</a></p>
                 </div>
             </div>
             
